@@ -13,3 +13,10 @@ if __name__ == "__main__":
     translated_text = translate_text(text_to_translate, target_language)
     print("Original Text:", text_to_translate)
     print("Translated Text:", translated_text)
+
+
+
+
+eg output :
+Original Text: welcome everyone
+Translated Text: அனைவரையும் வரவேற்கிறோம்
