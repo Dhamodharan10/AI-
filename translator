@@ -1,0 +1,15 @@
+pip install deep-translator
+from deep_translator import GoogleTranslator
+
+def translate_text(text, target_language="ta"):
+    translator = GoogleTranslator(target=target_language)
+    translation = translator.translate(text)
+    return translation
+
+if __name__ == "__main__":
+    text_to_translate = "welcome everyone"
+    target_language = "ta"
+
+    translated_text = translate_text(text_to_translate, target_language)
+    print("Original Text:", text_to_translate)
+    print("Translated Text:", translated_text)
